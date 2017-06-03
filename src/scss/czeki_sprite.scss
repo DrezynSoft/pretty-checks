@@ -1,0 +1,34 @@
+.hook {
+    background-image: url('../img/hook.png');
+    font-size: 0px;
+    width: 16px;
+    height: 16px;
+    border-width: 0;
+    padding: 0;
+    display: inline-block;
+    vertical-align: middle;
+    &.sel {
+        background-position: 0 0;
+    }
+    &.no-sel {
+        background-position: -16px 0;
+    }
+    &.sel-no-act {
+        background-position: 0 -16px;
+    }
+    &.no-sel-no-act {
+        background-position: -16px -16px;
+    }
+    &.sel-r {
+        background-position: -32px 0;
+    }
+    &.no-sel-r {
+        background-position: -48px 0;
+    }
+    &.sel-r-no-act {
+        background-position: -32px -16px;
+    }
+    &.no-sel-r-no-act {
+        background-position: -48px -16px;
+    }
+}

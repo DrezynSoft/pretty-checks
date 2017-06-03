@@ -1,0 +1,33 @@
+.hook {
+    font-size: 1.2em;
+    display: inline-block;
+    vertical-align: middle;
+    i {
+        display: none;
+    }
+    &.sel {
+        i.fa-check-square-o {
+            display: inline;
+        }
+    }
+    &.no-sel {
+        i.fa-square-o {
+            display: inline;
+        }
+    }
+    &.sel-r {
+        i.fa-dot-circle-o {
+            display: inline;
+        }
+    }
+    &.no-sel-r {
+        i.fa-circle-o {
+            display: inline;
+        }
+    }
+    &.sel-no-act, &.no-sel-no-act, &.sel-r-no-act, &.no-sel-r-no-act {
+        i {
+            opacity: 0.5;
+        }
+    }
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="author" content="dj.drezyna" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../../dist/css/czeki_fa.css" />
+        <link rel="stylesheet" href="../css/style.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="../../src/jQuery/czeki.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+        <title>Pretty checks - Font Awesome - jQuery</title>
+        <script>
+            $(function() {
+                var check = function (icon) {
+                    return '<i class="fa fa-'+icon+'"></i>';
+                };
+                var checks = function () {
+                    return check('check-square-o')+check('square-o')+check('circle-o')+check('dot-circle-o');
+                };
+                $('#czek1,#czek2,#czek3,#czek4,#czek5,#czek6,#czek7').each(function () {
+                    new DSsys.czek(this, {
+                        span: checks()
+                    });
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <h1>Pretty checks - Font Awesome - jQuery</h1>
+        <input id="czek1" type="radio" name="a" value="something" /><label for="czek1"> Click me1! (label outside - element of radio)</label>
+        <br />
+        <br />
+        <label for="czek2"><input id="czek2" type="radio" value="something" name="a" /> Click me2! (input in label - element of radio)</label>
+        <br />
+        <br />
+        <input id="czek3" type="radio" value="something" name="a" /> Click me3! (no label - element of radio)
+        <br />
+        <br />
+        <label><input id="czek4" type="checkbox" value="something" disabled="disabled" /></label> Click me4! (input in label - disabled)
+        <br />
+        <br />
+        <label for="czek5"><input id="czek5" type="checkbox" disabled="disabled" checked="checked" value="something" /></label> Click me5! (input in label - checked - disabled)
+        <br />
+        <br />
+        <label for="czek6"><input id="czek6" type="checkbox" checked="checked" value="something" /> Click me6! (input in label - checked)</label>
+        <br />
+        <br />
+        <input id="czek7" type="checkbox" checked="checked" value="something" />
+        <input id="btn1" value="Disable" type="button" />
+        <input id="btn2" value="Uncheck" type="button" />
+        <input id="btn3" value="Destroy" type="button" />
+    </body>
+</html>

@@ -1,0 +1,23 @@
+html {
+    background-color: navy;
+    color: white;
+}
+body {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 2%;
+    font-family: sans-serif;
+}
+[type="button"] {
+    background-color: white;
+    color: navy;
+    padding: 3px;
+    border: 1px solid navy;
+}
+[type="button"]:hover {
+    background-color: navy;
+    color: white;
+    padding: 3px;
+    border: 1px solid white;
+    cursor: pointer;
+}

@@ -1,0 +1,2 @@
+/*file=/dist/css/czeki_sprite.css*/
+.hook{background-image:url(../img/hook.png);font-size:0;width:16px;height:16px;border-width:0;padding:0;display:inline-block;vertical-align:middle}.hook.sel{background-position:0 0}.hook.no-sel{background-position:-16px 0}.hook.sel-no-act{background-position:0 -16px}.hook.no-sel-no-act{background-position:-16px -16px}.hook.sel-r{background-position:-32px 0}.hook.no-sel-r{background-position:-48px 0}.hook.sel-r-no-act{background-position:-32px -16px}.hook.no-sel-r-no-act{background-position:-48px -16px}
