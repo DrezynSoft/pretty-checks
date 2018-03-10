@@ -1,0 +1,33 @@
+.hook {
+    font-size: 1.2em;
+    display: inline-block;
+    vertical-align: middle;
+    span {
+        display: none;
+    }
+    &.sel {
+        span.glyphicon-check {
+            display: inline;
+        }
+    }
+    &.no-sel {
+        span.glyphicon-unchecked {
+            display: inline;
+        }
+    }
+    &.sel-r {
+        span.glyphicon-ok-sign {
+            display: inline;
+        }
+    }
+    &.no-sel-r {
+        span.glyphicon-record {
+            display: inline;
+        }
+    }
+    &.sel-no-act, &.no-sel-no-act, &.sel-r-no-act, &.no-sel-r-no-act {
+        span {
+            opacity: 0.5;
+        }
+    }
+}

@@ -14,6 +14,8 @@ You can use [jQuery] or [DSsys] JavaScript framework to make use of this library
 <link rel="stylesheet" href="../../dist/css/czeki_sprite.css" />
 <!-- or view as Font Awsome -->
 <link rel="stylesheet" href="../../dist/css/czeki_fa.css" />
+<!-- or view as Glyphicons (Bootstrap) -->
+<link rel="stylesheet" href="../../dist/css/czeki_bs.css" />
 ```
 
 ### DSsys
@@ -24,6 +26,8 @@ You can use [jQuery] or [DSsys] JavaScript framework to make use of this library
 <link rel="stylesheet" href="../../dist/css/czeki_sprite.css" />
 <!-- or view as Font Awsome -->
 <link rel="stylesheet" href="../../dist/css/czeki_fa.css" />
+<!-- or view as Glyphicons (Bootstrap) -->
+<link rel="stylesheet" href="../../dist/css/czeki_bs.css" />
 ```
 
 ## Usage
@@ -164,25 +168,29 @@ If you want restore pretty view, use `bulid` method.
 
 ### jQuery
 
+- [jQuery - Example Glyphicons (Bootstrap)]
 - [jQuery - Example Font Awesome]
 - [jQuery - Example Sprite]
 
 ### DSsys
 
+- [DSsys - Example Glyphicons (Bootstrap)]
 - [DSsys - Example Font Awesome]
 - [DSsys - Example Sprite]
 
 ## License
 
-> All right reserved. [DrezynSoft] 2017
+> All right reserved. [DrezynSoft] 2017-2018
 
 Commercial use without permission prohibited.
 
 [//]: #
    [DrezynSoft]: <http://drezynsoft.fotokrajobrazy.warmia.pl>
    [DSsys]: <http://dssys.fotokrajobrazy.warmia.pl>
+   [DSsys - Example Glyphicons (Bootstrap)]: <http://dssys.fotokrajobrazy.warmia.pl/przyklady/czeki/example/DSsys/bs.htm>
    [DSsys - Example Font Awesome]: <http://dssys.fotokrajobrazy.warmia.pl/przyklady/czeki/example/DSsys/fa.htm>
    [DSsys - Example Sprite]: <http://dssys.fotokrajobrazy.warmia.pl/przyklady/czeki/example/DSsys/sprite.htm>
    [jQuery]: <http://jquery.com>
+   [jQuery - Example Glyphicons (Bootstrap)]: <http://dssys.fotokrajobrazy.warmia.pl/przyklady/czeki/example/jQuery/bs.htm>
    [jQuery - Example Font Awesome]: <http://dssys.fotokrajobrazy.warmia.pl/przyklady/czeki/example/jQuery/fa.htm>
    [jQuery - Example Sprite]: <http://dssys.fotokrajobrazy.warmia.pl/przyklady/czeki/example/jQuery/sprite.htm>

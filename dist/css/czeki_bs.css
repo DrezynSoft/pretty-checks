@@ -1,0 +1,18 @@
+.hook {
+  font-size: 1.2em;
+  display: inline-block;
+  vertical-align: middle; }
+  .hook span {
+    display: none; }
+  .hook.sel span.glyphicon-check {
+    display: inline; }
+  .hook.no-sel span.glyphicon-unchecked {
+    display: inline; }
+  .hook.sel-r span.glyphicon-ok-sign {
+    display: inline; }
+  .hook.no-sel-r span.glyphicon-record {
+    display: inline; }
+  .hook.sel-no-act span, .hook.no-sel-no-act span, .hook.sel-r-no-act span, .hook.no-sel-r-no-act span {
+    opacity: 0.5; }
+
+/*# sourceMappingURL=czeki_bs.css.map */

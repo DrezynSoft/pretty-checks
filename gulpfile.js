@@ -9,7 +9,7 @@ var getVendor = function (v) {
     var vendor = [];
     vendor.push('/**');
     vendor.push(' * Pretty Checks Extension of ' + v + ' from http://dssys.fotokrajobrazy.warmia.pl');
-    vendor.push(' * All right reserved. DrezynSoft 2017');
+    vendor.push(' * All right reserved. DrezynSoft 2017-2018');
     vendor.push(' * Commercial use without permission prohibited.');
     vendor.push(' */');
     return vendor.join("\n") + "\n";
@@ -49,4 +49,12 @@ gulp.task('css-sprite', function(){
     .pipe(gulp.dest('dist/css'));
 });
 
-gulp.task('default', ['js-jquery', 'js-dssys', 'css-fa', 'css-sprite']);
+gulp.task('css-bs', function(){
+  return gulp.src('dist/css/czeki_bs.css')
+    .pipe(gulpIf('*.css', cssnano()))
+    .pipe(wrap(wrapPattern))
+    .pipe(concat('czeki_bs.min.css'))
+    .pipe(gulp.dest('dist/css'));
+});
+
+gulp.task('default', ['js-jquery', 'js-dssys', 'css-fa', 'css-sprite', 'css-bs']);
